@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My_First_App</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit_name">What\'s Ur Name?</string>
+    <string name="edit_height">How tall U are? (cm)</string>
+    <string name="edit_weight">How heavy U are? (Kg)</string>
+    <string name="button_send">Calculate BMI !!</string>
+    <string name="title_activity_display_bmi">DisplayBMI</string>
+    <string name="title_activity_dbhelper">DBhelper</string>
+    <string name="button_see_all">See all testors</string>
+    <string name="title_activity_show_all_testors">ShowAllTestors</string>
+
+</resources>

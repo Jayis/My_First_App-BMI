@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jayis4176.my_first_app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jayis4176.my_first_app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DisplayBMI"
+            android:label="@string/title_activity_display_bmi" >
+        </activity>
+
+        <service
+            android:name=".db"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name=".DBhelper"
+            android:label="@string/title_activity_dbhelper" >
+        </activity>
+
+        <service
+            android:name=".DBhelper"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".ShowAllTestors"
+            android:label="@string/title_activity_show_all_testors" >
+        </activity>
+    </application>
+
+</manifest>
